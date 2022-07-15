@@ -63,6 +63,10 @@ body {
 
 }
 
+.belownav{
+  color:#61481C;
+}
+
 h1 {
   width: 100%;
   margin: 0 auto;
@@ -169,7 +173,7 @@ p{
 
 .bottom-container {
 
-  margin:40px auto auto auto;
+  margin:auto auto auto auto;
 }
 
 .footer-link {

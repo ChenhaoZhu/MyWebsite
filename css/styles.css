@@ -39,7 +39,6 @@ body {
 
 .smalltalk{
   background-color: #8D8DAA;
-  ;
 }
 
 .selfintro{
@@ -77,7 +76,7 @@ p{
 }
 
 .top-container {
-  background-image: url('../images/blacktech.jpeg');
+  background-color: #8D8DAA;
   background-size: cover;
   position: relative;
   padding-top: 0px;

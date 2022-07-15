@@ -7,6 +7,8 @@
     <!-- Css style sheet -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/styles.css">
     <!-- Font awesome -->
     <script src="https://kit.fontawesome.com/4c6b813f08.js" crossorigin="anonymous"></script>
@@ -22,26 +24,42 @@
       <div class='beg'>
 
 
-      <nav class='navbar navbar-expand-md navbar-dark'>
+      <nav class='nav nav-tabs navbar navbar-expand-md navbar-dark'>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class='collapse navbar-collapse' id='navbarTogglerDemo01'>
       <a class='navbar-brand' href=''>Serendipity?Maybe~</a>
-      <ul class='navbar-nav ms-auto'>
-          <li class='nav-item'>
+      <ul class='nav nav-tabs navbar-nav ms-auto'>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Contact</a>
+          <ul class="dropdown-menu">
+            <li><a class="nav-link belownav" href="file/job.seek.jpeg">Working Opportunities</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="nav-link belownav" href="file/wechat.png">Personal Business</a></li>
+          </ul>
+        </li>
+          <!-- <li class='nav-item'>
               <a class='nav-link' href=''>
                   Contact
               </a>
+          </li> -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Download(CV)</a>
+            <ul class="dropdown-menu">
+              <li><a class="nav-link belownav" href="file/Knorth_Resume_LightWhite2.pdf">Resume</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="nav-link belownav" href="#" title='Not Available Now'>Personal Statement</a></li>
+            </ul>
           </li>
-          <li class='nav-item'>
-              <a class='nav-link' href=''>
+          <!-- <li class='nav-item'>
+              <a class='nav-link' href='file/Knorth_Resume_LightWhite2.pdf' Download>
                   Download(CV)
               </a>
-          </li>
+          </li> -->
           <li class='nav-item'>
-              <a class='nav-link' href=''>
-                  NothingHappen
+              <a class='nav-link' href='https://littleknorth.xyz/'>
+                  SpaceTravel
               </a>
           </li>
       </ul>

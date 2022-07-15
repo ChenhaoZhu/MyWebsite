@@ -6,6 +6,13 @@ body {
   background-color: #F7F5F2;
 }
 
+.firstword{
+  margin: auto;
+  color: white;
+  font: 700 normal 2em 'tahoma';
+  text-shadow: 5px 2px #222324, 2px 4px #222324, 3px 5px #222324;
+}
+
 .smalltitle{
   color:#F5EDDC;
 }
@@ -82,6 +89,7 @@ p{
   padding-top: 0px;
   padding-bottom: 200px;
   opacity: 0.8;
+  height: 750px;
 }
 
 .middle-container{

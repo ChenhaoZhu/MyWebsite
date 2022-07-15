@@ -1,0 +1,232 @@
+
+body {
+  margin: 0;
+  text-align: center;
+  padding: 0;
+  background-color: #F7F5F2;
+}
+
+.smalltitle{
+  color:#F5EDDC;
+}
+
+.hint{
+  color:#FFFFFF;
+}
+
+.beg{
+  padding: 3% 3%;
+}
+
+.navbar{
+  padding: 0 0 0rem;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: 'Montserrat-light';
+}
+
+.navbar-brand{
+  font-family: 'Montserrat Alternates';
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.smalltalk{
+  background-color: #8D8DAA;
+  ;
+}
+
+.selfintro{
+  text-align: center;
+  position: relative;
+  margin: auto;
+
+}
+
+.myself{
+  opacity: 1;
+  font-family: cursive;
+  color: #FFFFFF;
+  font-size: 3rem;
+
+}
+
+h1 {
+  width: 100%;
+  margin: 0 auto;
+  font-family: cursive;
+}
+
+h2{
+  color: #247881;
+}
+
+h3{
+  color: #333C83;
+  font-family: 'Lobster';
+}
+
+p{
+  font-family:inherit;
+}
+
+.top-container {
+  background-image: url('../images/beautifulSkyforDayTime.jpg');
+  background-size: cover;
+  position: relative;
+  padding-top: 0px;
+  padding-bottom: 200px;
+  opacity: 0.8;
+}
+
+.middle-container{
+  background-color: #DFDFDE;
+}
+
+.contact-me{
+  background-color: #FCF8E8;
+  padding-bottom: 100px;
+}
+
+.bottom-container{
+  background-color: #FBD6D2;
+}
+
+.kenanT{
+  height: auto;
+  width: 100px;
+}
+
+.skills{
+  background-color: #FCF8E8;
+  padding-bottom: 200px;
+}
+
+
+.skill-row{
+  width:50%;
+  margin: 100px auto 100px auto;
+  text-align: right;
+  line-height: 2;
+}
+
+
+.PI{
+  width:25%;
+  float:right;
+  margin-left: 30px;
+}
+.AI{
+  width:25%;
+  float:left;
+  margin-right: 30px;
+}
+.SI{
+  width:25%;
+  float:right;
+  margin-left: 30px;
+}
+
+.btn {
+  background: #34d6d9;
+  background-image: -webkit-linear-gradient(top, #34d6d9, #422bb8);
+  background-image: -moz-linear-gradient(top, #34d6d9, #422bb8);
+  background-image: -ms-linear-gradient(top, #34d6d9, #422bb8);
+  background-image: -o-linear-gradient(top, #34d6d9, #422bb8);
+  background-image: linear-gradient(to bottom, #34d6d9, #422bb8);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 8px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+.bottom-container {
+
+  margin:40px auto auto auto;
+}
+
+.footer-link {
+  background: #34d6d9;
+  background-image: -webkit-linear-gradient(top, #34d6d9, #422bb8);
+  background-image: -moz-linear-gradient(top, #34d6d9, #422bb8);
+  background-image: -ms-linear-gradient(top, #34d6d9, #422bb8);
+  background-image: -o-linear-gradient(top, #34d6d9, #422bb8);
+  background-image: linear-gradient(to bottom, #34d6d9, #422bb8);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 9px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  background: #3c96fc;
+  background-image: -webkit-linear-gradient(top, #3c96fc, #8fd934);
+  background-image: -moz-linear-gradient(top, #3c96fc, #8fd934);
+  background-image: -ms-linear-gradient(top, #3c96fc, #8fd934);
+  background-image: -o-linear-gradient(top, #3c96fc, #8fd934);
+  background-image: linear-gradient(to bottom, #3c96fc, #8fd934);
+  text-decoration: none;
+}
+
+.copyright{
+  color:#333C83;
+}
+
+#vid{
+  padding: 5% 5%;
+  height: 800px;
+  text-align: center;
+  background-image: url('../images/blacktech.jpeg');
+  background-size: cover;
+  background-color: #A5BECC;
+  color:#F5EDDC;
+}
+
+.carousel-control-prev{
+  background: #898AA6;
+}
+
+.carousel-control-next{
+  background: #898AA6;
+}
+
+.Kaggle-pro{
+  background: #34d6d9;
+  background-image: -webkit-linear-gradient(top, #F9F9C5, #422bb8);
+  background-image: -moz-linear-gradient(top, #F9F9C5, #422bb8);
+  background-image: -ms-linear-gradient(top, #F9F9C5, #422bb8);
+  background-image: -o-linear-gradient(top, #F9F9C5, #422bb8);
+  background-image: linear-gradient(to bottom, #F9F9C5, #422bb8);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 9px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
